@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+    <fieldset>
+        <legend>Your Details:</legend>
+   
+    <div>
+        <label for="name">Name</label>
+    <input type="text" id="name" placeholder="Enter Your Name" maxlength="10" value="">
+</div>
+<div>
+    <label for="email">Email</label>
+    <input type="email" id="email" placeholder="Enter Your Email" value="">
+</div>
+</fieldset>
+
+<fieldset>
+    <legend>Your Review:</legend>
+<div>
+    <label for="hear">How did you hear about us?</label>
+<select name="sites" id="hear">
+<option value="" selected>Google</option>
+<option value="">Youtube</option>
+<option value="">Insta</option>
+
+</select>
+</div><br>
+<div>
+<p>Would you vist Again?</p>
+<input type="radio" id="yes" name="1" value="yes">
+<label for="yes" >Yes</label>
+<input type="radio" id="no" name="1" value="no">
+<label for="no">NO</label>
+<input type="radio" id="maybe" name="1" value="maybe"> 
+<label for="maybe">Maybe</label>
+</div>
+<div>
+    <label for="comment">Comment:</label><br>
+    <textarea name="comment" id="comment" cols="40" rows="4"></textarea>
+</div>
+<div>
+    <input type="checkbox" id="c">
+    <label for="c">Sign me up for email updates</label>
+</div>
+<button>Submit Review</button>
+
+
+</fieldset>
+</form>
+</body>
+</html>
